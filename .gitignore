@@ -11,10 +11,12 @@
 *.gch
 *.pch
 
-# Compiled Dynamic libraries
+# Ignore Visual Studio cache and build folder
+.vs/
+
+# Compiled Dynamic libraries (ignoring .dll files as per request)
 *.so
 *.dylib
-*.dll
 
 # Fortran module files
 *.mod
